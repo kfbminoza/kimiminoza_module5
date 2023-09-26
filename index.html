@@ -5,59 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .menubar{
-            background-color: rgb(162, 223, 247);
-            border: 1px solid rgb(0, 0, 0);
-            color: rgb(94, 255, 0);
-            padding: 20px;
-            margin-top: 50px;
-            margin-bottom: 50px;
-            border-radius: 100px;
-            text-align: center;
-        }
-        #links{
-            display: inline;
-            border: 2px solid black;
-            padding: 5px;
-            margin: 5px;
-            background-color: beige;
-            
-        }
-        #links a{
-            color: black;
-            font-style: none;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+
     </style>
 </head>
 <body>
-    <div class="menubar">
+    <div id="navbar" class="rounded">
         <div id="links">
-            <a href="https://github.com">Github</a>
+            <a href="http://github.com" id="gh">Github</a>
         </div>
         <div id="links">
-            <a href="https://youtube.com">Youtube</a>
+            <a href="http://youtube.com" id="yt">Youtube</a>
         </div>
         <div id="links">
-            <a href="https://twitter.com">Twitter</a>
+            <a href="http://twitter.com" id="tw">Twitter</a>
         </div>
         <div id="links">
-            <a href="https://instagram.com">Instagram</a>
+            <a href="http://instagram.com" id="ig">Instagram</a>
         </div>
         <div id="links">
-            <a href="https://facebook.com">Facebook</a>
+            <a href="http://facebook.com" id="fb">Facebook</a>
         </div>
         <div id="links">
-            <a href="https://threads.com">Threads</a>
+            <a href="http://threads.com" id="ts">Threads</a>
         </div>
         <div id="links">
-            <a href="https://messenger.com">Messenger</a>
+            <a href="http://messenger.com" id="mg">Messenger</a>
         </div>
     </div>
     <div class="menubar">
         <div id="links"></div>
         <div id="links"></div>
         <div id="links"></div>
+    </div>
+    <link rel="stylesheet" href="styles.css">
+    
     </div>
 </body>
 </html>
